@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users - MovieWeb App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        a.user-link {
+            text-decoration: underline;
+            color: #007bff;
+        }
+
+        a.user-link:hover {
+            color: #0056b3;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <h1 class="text-center mb-4">Users</h1>
+        <a href="/users/add" class="btn btn-primary mb-3">Add User</a>
+        <a href="/" class="btn btn-secondary mb-3">Go to Index</a>
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <h2 class="h5 mb-0">User List</h2>
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+                    {% for user in users %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div>
+                            <a href="/users/{{ user.id }}" class="user-link">
+                                {{ user.name }}
+                            </a>
+                            <span class="badge bg-success ms-2">Total Movies: {{ user.movies_count }}</span>
+                        </div>
+                        <span>
+                            <a href="/users/{{ user.id }}/add_movie" class="btn btn-sm btn-success">Add Movie</a>
+                        </span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,874 @@
+2025-01-05 19:33:05,948 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app.py', reloading
+2025-01-05 19:33:06,327 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 19:33:06,334 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 19:33:07,444 - app - ERROR - An unhandled exception occurred: This is a test error
+Traceback (most recent call last):
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app.py", line 123, in test_error
+    raise Exception("This is a test error")
+Exception: This is a test error
+2025-01-05 19:33:07,449 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 19:33:07] "[35m[1mGET /test-error HTTP/1.1[0m" 500 -
+2025-01-05 19:33:39,816 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app.py', reloading
+2025-01-05 19:33:40,234 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 19:33:40,240 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 19:38:53,560 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app.py', reloading
+2025-01-05 19:45:12,913 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-05 19:45:12,913 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-05 19:45:12,914 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 19:45:13,139 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 19:45:13,145 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 19:45:16,198 - app - INFO - Rendered the home page successfully.
+2025-01-05 19:45:16,203 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 19:45:16] "GET / HTTP/1.1" 200 -
+2025-01-05 19:45:16,252 - app - WARNING - Page not found: 404.
+2025-01-05 19:45:16,255 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 19:45:16] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 19:50:27,550 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/data_manager/sqlite_data_manager.py', reloading
+2025-01-05 19:50:27,632 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 19:50:28,031 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 19:50:28,038 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 19:51:20,802 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/user_controller.py', reloading
+2025-01-05 19:51:20,867 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 19:51:21,195 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 19:51:21,203 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 19:52:13,897 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_controller.py', reloading
+2025-01-05 19:52:13,954 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 19:52:14,294 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 19:52:14,301 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 19:52:55,901 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_controller.py', reloading
+2025-01-05 19:52:55,969 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 19:52:56,298 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 19:52:56,303 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 19:53:01,378 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_controller.py', reloading
+2025-01-05 19:53:01,437 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 19:53:01,749 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 19:53:01,755 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 19:54:45,123 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_controller.py', reloading
+2025-01-05 19:54:45,204 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 19:54:45,542 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 19:54:45,549 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 19:57:25,766 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_controller.py', reloading
+2025-01-05 19:57:25,970 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 19:57:26,452 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 19:57:26,461 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 19:57:56,853 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/movies_controller.py', reloading
+2025-01-05 19:57:57,005 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 19:57:57,339 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 19:57:57,346 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 19:59:46,784 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app.py', reloading
+2025-01-05 19:59:46,892 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 19:59:47,236 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 19:59:47,242 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 19:59:52,333 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app.py', reloading
+2025-01-05 19:59:52,393 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 19:59:52,699 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 19:59:52,705 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:02:07,547 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app.py', reloading
+2025-01-05 20:02:07,622 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:02:07,968 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:02:07,974 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:02:11,868 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:02:11,876 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:02:11] "GET / HTTP/1.1" 200 -
+2025-01-05 20:02:11,917 - app - WARNING - Page not found: 404.
+2025-01-05 20:02:11,919 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:02:11] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:02:14,044 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 20:02:14,048 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:02:14] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 20:02:15,859 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:02:15,865 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:02:15] "GET / HTTP/1.1" 200 -
+2025-01-05 20:02:15,900 - app - WARNING - Page not found: 404.
+2025-01-05 20:02:15,902 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:02:15] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:02:18,118 - app - WARNING - Page not found: 404.
+2025-01-05 20:02:18,120 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:02:18] "[33mGET /users/1/add_movie HTTP/1.1[0m" 404 -
+2025-01-05 20:02:23,172 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:02:23,176 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:02:23] "GET / HTTP/1.1" 200 -
+2025-01-05 20:02:23,211 - app - WARNING - Page not found: 404.
+2025-01-05 20:02:23,213 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:02:23] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:02:38,072 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:02:38] "[32mGET /users HTTP/1.1[0m" 308 -
+2025-01-05 20:02:38,090 - root - INFO - Rendered the users list page.
+2025-01-05 20:02:38,093 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:02:38] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 20:02:41,099 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 20:02:41,101 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:02:41] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 20:02:44,165 - app - WARNING - Page not found: 404.
+2025-01-05 20:02:44,167 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:02:44] "[33mGET /users/1/add_movie HTTP/1.1[0m" 404 -
+2025-01-05 20:03:05,525 - app - WARNING - Page not found: 404.
+2025-01-05 20:03:05,526 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:03:05] "[33mGET /users/1/add_movie HTTP/1.1[0m" 404 -
+2025-01-05 20:05:23,665 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app.py', reloading
+2025-01-05 20:05:23,767 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:09:40,527 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-05 20:09:40,527 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-05 20:09:40,528 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:09:40,751 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:09:40,756 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:09:42,975 - app - WARNING - Page not found: 404.
+2025-01-05 20:09:42,979 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:09:42] "[33mGET /users/1/add_movie HTTP/1.1[0m" 404 -
+2025-01-05 20:09:46,299 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:09:46,306 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:09:46] "GET / HTTP/1.1" 200 -
+2025-01-05 20:09:46,353 - app - WARNING - Page not found: 404.
+2025-01-05 20:09:46,355 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:09:46] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:09:49,427 - app - WARNING - Page not found: 404.
+2025-01-05 20:09:49,428 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:09:49] "[33mGET /users/1/add_movie HTTP/1.1[0m" 404 -
+2025-01-05 20:13:01,442 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 20:13:01,516 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:13:01,882 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:13:01,887 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:13:02,989 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:13:02] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 20:13:12,443 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.omdbapi.com:80
+2025-01-05 20:13:12,865 - urllib3.connectionpool - DEBUG - http://www.omdbapi.com:80 "GET /?apikey=6769d9a1&t=The%20Godfather%20Part%20II HTTP/11" 200 None
+2025-01-05 20:13:12,890 - root - INFO - Added movie 'The Godfather Part II' for user ID 1.
+2025-01-05 20:13:12,891 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:13:12] "[32mPOST /users/1/add_movie HTTP/1.1[0m" 302 -
+2025-01-05 20:13:12,905 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 20:13:12,911 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:13:12] "GET /users/1?message=Movie%20"The%20Godfather%20Part%20II"%20added%20successfully!&status=success HTTP/1.1" 200 -
+2025-01-05 20:13:16,412 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:13:16,417 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:13:16] "GET / HTTP/1.1" 200 -
+2025-01-05 20:13:16,438 - app - WARNING - Page not found: 404.
+2025-01-05 20:13:16,440 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:13:16] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:13:31,067 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:13:31] "GET /users/add HTTP/1.1" 200 -
+2025-01-05 20:13:35,127 - root - INFO - Added new user: fsd.
+2025-01-05 20:13:35,128 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:13:35] "[32mPOST /users/add HTTP/1.1[0m" 302 -
+2025-01-05 20:13:35,135 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:13:35] "[32mGET /users HTTP/1.1[0m" 308 -
+2025-01-05 20:13:35,144 - root - INFO - Rendered the users list page.
+2025-01-05 20:13:35,147 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:13:35] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 20:13:44,181 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:13:44,183 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:13:44] "GET / HTTP/1.1" 200 -
+2025-01-05 20:13:44,236 - app - WARNING - Page not found: 404.
+2025-01-05 20:13:44,237 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:13:44] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:16:46,154 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:16:46,163 - app - ERROR - An unhandled exception occurred: integer division or modulo by zero
+Traceback (most recent call last):
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app.py", line 28, in home
+    return render_template(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/narayanghimire/Desktop/moviweb_app/templates/index.html", line 69, in top-level template code
+    {% for user in users|slice(0, 5) %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/filters.py", line 1070, in sync_do_slice
+    items_per_slice = length // slices
+                      ~~~~~~~^^~~~~~~~
+ZeroDivisionError: integer division or modulo by zero
+2025-01-05 20:16:46,169 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:16:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-05 20:17:25,600 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:17:25,602 - app - ERROR - An unhandled exception occurred: integer division or modulo by zero
+Traceback (most recent call last):
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app.py", line 28, in home
+    return render_template(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/narayanghimire/Desktop/moviweb_app/templates/index.html", line 69, in top-level template code
+    {% for user in users|slice(0, 5) %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/filters.py", line 1070, in sync_do_slice
+    items_per_slice = length // slices
+                      ~~~~~~~^^~~~~~~~
+ZeroDivisionError: integer division or modulo by zero
+2025-01-05 20:17:25,604 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:17:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-05 20:18:33,565 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:18:33,572 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:18:33] "GET / HTTP/1.1" 200 -
+2025-01-05 20:18:33,594 - app - WARNING - Page not found: 404.
+2025-01-05 20:18:33,595 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:18:33] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:20:23,439 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:20:23,447 - app - ERROR - An unhandled exception occurred: integer division or modulo by zero
+Traceback (most recent call last):
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app.py", line 28, in home
+    return render_template(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/narayanghimire/Desktop/moviweb_app/templates/index.html", line 64, in top-level template code
+    {% for user in users|slice(0, 5) %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/filters.py", line 1070, in sync_do_slice
+    items_per_slice = length // slices
+                      ~~~~~~~^^~~~~~~~
+ZeroDivisionError: integer division or modulo by zero
+2025-01-05 20:20:23,448 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:20:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-05 20:20:57,683 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:20:57,687 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:20:57] "GET / HTTP/1.1" 200 -
+2025-01-05 20:20:57,744 - app - WARNING - Page not found: 404.
+2025-01-05 20:20:57,745 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:20:57] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:23:20,295 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app.py', reloading
+2025-01-05 20:23:20,376 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:23:20,746 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:23:20,752 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:23:35,988 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app.py', reloading
+2025-01-05 20:23:36,075 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:23:36,490 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:23:36,498 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:24:56,752 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:24:56,761 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:24:56] "GET / HTTP/1.1" 200 -
+2025-01-05 20:24:56,791 - app - WARNING - Page not found: 404.
+2025-01-05 20:24:56,794 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:24:56] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:25:48,238 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:25:48,245 - app - ERROR - An unhandled exception occurred: expected token 'end of statement block', got '['
+Traceback (most recent call last):
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app.py", line 30, in home
+    return render_template(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/narayanghimire/Desktop/moviweb_app/templates/index.html", line 43, in template
+    {% for user in users|batch(5)[0] %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of statement block', got '['
+2025-01-05 20:25:48,253 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:25:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-05 20:26:42,389 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:26:42,396 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:26:42] "GET / HTTP/1.1" 200 -
+2025-01-05 20:26:42,454 - app - WARNING - Page not found: 404.
+2025-01-05 20:26:42,454 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:26:42] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:26:51,695 - root - INFO - Rendered the users list page.
+2025-01-05 20:26:51,699 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:26:51] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 20:26:53,345 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:26:53,346 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:26:53] "GET / HTTP/1.1" 200 -
+2025-01-05 20:26:53,373 - app - WARNING - Page not found: 404.
+2025-01-05 20:26:53,373 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:26:53] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:28:46,257 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:28:46,266 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:28:46] "GET / HTTP/1.1" 200 -
+2025-01-05 20:28:46,305 - app - WARNING - Page not found: 404.
+2025-01-05 20:28:46,306 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:28:46] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:29:02,039 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app.py', reloading
+2025-01-05 20:29:02,101 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:29:02,441 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:29:02,447 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:29:02,606 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:29:02,610 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:29:02] "GET / HTTP/1.1" 200 -
+2025-01-05 20:29:02,663 - app - WARNING - Page not found: 404.
+2025-01-05 20:29:02,665 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:29:02] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:29:10,574 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app.py', reloading
+2025-01-05 20:29:10,623 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:29:10,940 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:29:10,945 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:29:11,982 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:29:11,989 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:29:11] "GET / HTTP/1.1" 200 -
+2025-01-05 20:29:12,015 - app - WARNING - Page not found: 404.
+2025-01-05 20:29:12,017 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:29:12] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:29:17,527 - root - INFO - Rendered the users list page.
+2025-01-05 20:29:17,529 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:29:17] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 20:29:20,511 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:29:20,513 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:29:20] "GET / HTTP/1.1" 200 -
+2025-01-05 20:29:20,550 - app - WARNING - Page not found: 404.
+2025-01-05 20:29:20,550 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:29:20] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:29:37,436 - root - INFO - Rendered the users list page.
+2025-01-05 20:29:37,438 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:29:37] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 20:32:58,122 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/validation/user_validator.py', reloading
+2025-01-05 20:32:58,195 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:32:58,535 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:32:58,541 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:33:07,674 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/validation/user_validator.py', reloading
+2025-01-05 20:33:07,742 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:33:08,046 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:33:08,051 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:33:24,314 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/validation/movie_validator.py', reloading
+2025-01-05 20:33:24,391 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:33:24,719 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:33:24,725 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:33:38,907 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/validation/movie_validator.py', reloading
+2025-01-05 20:33:38,983 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:33:39,325 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:33:39,332 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:34:11,796 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/validation/movie_validator.py', reloading
+2025-01-05 20:34:11,860 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:34:12,225 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:34:12,240 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:36:22,097 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 20:36:22,173 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:38:58,666 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-05 20:38:58,667 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-05 20:38:58,668 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:38:58,891 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:38:58,897 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:39:03,336 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:39:03,341 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:39:03] "GET / HTTP/1.1" 200 -
+2025-01-05 20:39:03,410 - app - WARNING - Page not found: 404.
+2025-01-05 20:39:03,413 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:39:03] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:39:09,856 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:39:09] "GET /users/add HTTP/1.1" 200 -
+2025-01-05 20:39:12,726 - root - INFO - Added new user: 4563454t.
+2025-01-05 20:39:12,726 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:39:12] "[32mPOST /users/add HTTP/1.1[0m" 302 -
+2025-01-05 20:39:12,731 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:39:12] "[32mGET /users HTTP/1.1[0m" 308 -
+2025-01-05 20:39:12,736 - root - INFO - Rendered the users list page.
+2025-01-05 20:39:12,739 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:39:12] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 20:39:19,148 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:39:19] "GET /users/add HTTP/1.1" 200 -
+2025-01-05 20:39:22,770 - root - INFO - Added new user: 555555.
+2025-01-05 20:39:22,770 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:39:22] "[32mPOST /users/add HTTP/1.1[0m" 302 -
+2025-01-05 20:39:22,775 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:39:22] "[32mGET /users HTTP/1.1[0m" 308 -
+2025-01-05 20:39:22,780 - root - INFO - Rendered the users list page.
+2025-01-05 20:39:22,780 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:39:22] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 20:41:31,011 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-05 20:41:31,012 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-05 20:41:31,013 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:41:31,376 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:41:31,381 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:41:33,819 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:41:33,824 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:41:33] "GET / HTTP/1.1" 200 -
+2025-01-05 20:41:33,877 - app - WARNING - Page not found: 404.
+2025-01-05 20:41:33,879 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:41:33] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:41:37,830 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:41:37] "GET /users/add HTTP/1.1" 200 -
+2025-01-05 20:41:41,455 - root - INFO - Added new user: 5463453.
+2025-01-05 20:41:41,455 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:41:41] "[32mPOST /users/add HTTP/1.1[0m" 302 -
+2025-01-05 20:41:41,461 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:41:41] "[32mGET /users HTTP/1.1[0m" 308 -
+2025-01-05 20:41:41,467 - root - INFO - Rendered the users list page.
+2025-01-05 20:41:41,473 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:41:41] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 20:42:35,080 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-05 20:42:35,081 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-05 20:42:35,081 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:42:35,303 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:42:35,310 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:42:37,256 - root - INFO - Rendered the users list page.
+2025-01-05 20:42:37,259 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:42:37] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 20:43:48,358 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/validation/user_validator.py', reloading
+2025-01-05 20:43:48,435 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:43:48,774 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:43:48,779 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:43:56,893 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/validation/user_validator.py', reloading
+2025-01-05 20:43:56,964 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:43:57,293 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:43:57,300 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:43:59,483 - root - INFO - Rendered the users list page.
+2025-01-05 20:43:59,487 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:43:59] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 20:44:01,258 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:44:01] "GET /users/add HTTP/1.1" 200 -
+2025-01-05 20:44:04,338 - root - ERROR - Error adding user: 400 Bad Request: Name must be a string containing only alphabetic characters.
+2025-01-05 20:44:04,338 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:44:04] "POST /users/add HTTP/1.1" 200 -
+2025-01-05 20:45:23,546 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 20:45:23,624 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:45:23,968 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:45:23,974 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:46:00,677 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:46:00] "GET /users/add HTTP/1.1" 200 -
+2025-01-05 20:46:04,238 - root - ERROR - Error adding user: 400 Bad Request: Name must be a string containing only alphabetic characters.
+2025-01-05 20:46:04,238 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:46:04] "POST /users/add HTTP/1.1" 200 -
+2025-01-05 20:46:11,057 - root - INFO - Rendered the users list page.
+2025-01-05 20:46:11,059 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:46:11] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 20:47:24,080 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:47:24,092 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:47:24] "GET / HTTP/1.1" 200 -
+2025-01-05 20:47:24,144 - app - WARNING - Page not found: 404.
+2025-01-05 20:47:24,148 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:47:24] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:47:30,020 - root - INFO - Rendered movies for user ID 6.
+2025-01-05 20:47:30,033 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:47:30] "GET /users/6 HTTP/1.1" 200 -
+2025-01-05 20:47:37,168 - root - INFO - Rendered the users list page.
+2025-01-05 20:47:37,169 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:47:37] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 20:47:41,013 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 20:47:41,015 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:47:41] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 20:51:22,841 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 20:51:22,847 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:51:22] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 20:52:22,613 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:52:22,614 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:52:22] "GET / HTTP/1.1" 200 -
+2025-01-05 20:52:22,655 - app - WARNING - Page not found: 404.
+2025-01-05 20:52:22,655 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:52:22] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:52:25,346 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:52:25] "GET /users/6/add_movie HTTP/1.1" 200 -
+2025-01-05 20:56:44,563 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 20:56:44,650 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:56:44,995 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:56:45,004 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:58:03,097 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 20:58:03,170 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:58:03,510 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:58:03,516 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:58:20,776 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 20:58:20,852 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:58:21,175 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:58:21,180 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:58:41,484 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 20:58:41,590 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:58:41,963 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:58:41,968 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:58:42,394 - app - INFO - Rendered the home page successfully.
+2025-01-05 20:58:42,398 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:58:42] "GET / HTTP/1.1" 200 -
+2025-01-05 20:58:42,446 - app - WARNING - Page not found: 404.
+2025-01-05 20:58:42,447 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:58:42] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 20:58:48,289 - root - INFO - Rendered movies for user ID 6.
+2025-01-05 20:58:48,293 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:58:48] "GET /users/6 HTTP/1.1" 200 -
+2025-01-05 20:58:51,461 - root - INFO - Rendered the users list page.
+2025-01-05 20:58:51,464 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:58:51] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 20:58:52,976 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 20:58:52,977 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:58:52] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 20:58:55,437 - app - WARNING - Page not found: 404.
+2025-01-05 20:58:55,437 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:58:55] "[33mGET /users/1/update/5 HTTP/1.1[0m" 404 -
+2025-01-05 20:59:12,398 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 20:59:12,457 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:59:12,805 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:59:12,811 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:59:18,902 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 20:59:18,965 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 20:59:19,278 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 20:59:19,283 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 20:59:20,344 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:59:20] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 20:59:39,005 - root - ERROR - Error updating movie for user ID 1, movie ID 5: 400 Bad Request: Rating must be a number between 1 and 10.
+2025-01-05 20:59:39,006 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 20:59:39] "[31m[1mPOST /users/1/update/5 HTTP/1.1[0m" 400 -
+2025-01-05 21:01:10,823 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/validation/movie_validator.py', reloading
+2025-01-05 21:01:10,903 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 21:01:11,273 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 21:01:11,280 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 21:01:12,722 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:01:12] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 21:01:15,557 - root - ERROR - Error updating movie for user ID 1, movie ID 5: 400 Bad Request: Rating must be a number between 1 and 10.
+2025-01-05 21:01:15,558 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:01:15] "[31m[1mPOST /users/1/update/5 HTTP/1.1[0m" 400 -
+2025-01-05 21:02:58,891 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/validation/movie_validator.py', reloading
+2025-01-05 21:02:58,948 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 21:02:59,312 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 21:02:59,320 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 21:03:00,650 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:03:00] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 21:03:26,700 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/validation/movie_validator.py', reloading
+2025-01-05 21:03:26,779 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 21:03:27,095 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 21:03:27,102 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 21:03:28,541 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.omdbapi.com:80
+2025-01-05 21:03:28,643 - urllib3.connectionpool - DEBUG - http://www.omdbapi.com:80 "GET /?apikey=6769d9a1&t=The%20Godfather%20Part%20II HTTP/11" 200 None
+2025-01-05 21:03:28,649 - root - INFO - Updated movie ID 5 for user ID 1.
+2025-01-05 21:03:28,651 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:03:28] "POST /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 21:04:51,263 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 21:04:51,326 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 21:04:51,667 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 21:04:51,673 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 21:06:36,101 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/validation/movie_validator.py', reloading
+2025-01-05 21:06:36,169 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 21:06:36,521 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 21:06:36,528 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 21:06:41,710 - app - WARNING - Page not found: 404.
+2025-01-05 21:06:41,721 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:06:41] "[33mGET /users/1/ HTTP/1.1[0m" 404 -
+2025-01-05 21:06:44,151 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 21:06:44,156 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:06:44] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 21:06:56,134 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:06:56] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 21:07:00,947 - app - ERROR - An unhandled exception occurred: too many values to unpack (expected 3)
+Traceback (most recent call last):
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py", line 78, in update_movie
+    name, director, year = MovieValidator.validate_update_movie()
+    ^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 3)
+2025-01-05 21:07:00,952 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:07:00] "[35m[1mPOST /users/1/update/5 HTTP/1.1[0m" 500 -
+2025-01-05 21:07:29,102 - app - ERROR - An unhandled exception occurred: too many values to unpack (expected 3)
+Traceback (most recent call last):
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py", line 78, in update_movie
+    name, director, year = MovieValidator.validate_update_movie()
+    ^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 3)
+2025-01-05 21:07:29,104 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:07:29] "[35m[1mPOST /users/1/update/5 HTTP/1.1[0m" 500 -
+2025-01-05 21:08:01,744 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/validation/movie_validator.py', reloading
+2025-01-05 21:08:01,800 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 21:08:02,139 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 21:08:02,145 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 21:08:02,919 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:08:02] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 21:08:05,081 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.omdbapi.com:80
+2025-01-05 21:08:05,166 - urllib3.connectionpool - DEBUG - http://www.omdbapi.com:80 "GET /?apikey=6769d9a1&t=The%20Godfather%20Part%20II HTTP/11" 200 None
+2025-01-05 21:08:05,173 - root - INFO - Updated movie ID 5 for user ID 1.
+2025-01-05 21:08:05,174 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:08:05] "[32mPOST /users/1/update/5 HTTP/1.1[0m" 302 -
+2025-01-05 21:08:05,187 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 21:08:05,193 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:08:05] "GET /users/1?message=Movie+'The+Godfather+Part+II'+updated+successfully!&status=success HTTP/1.1" 200 -
+2025-01-05 21:08:32,032 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:08:32] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 21:10:00,412 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 21:10:00,421 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:10:00] "GET /users/1?message=Movie+'The+Godfather+Part+II'+updated+successfully!&status=success HTTP/1.1" 200 -
+2025-01-05 21:14:14,351 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/validation/movie_validator.py', reloading
+2025-01-05 21:14:14,422 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 21:14:14,847 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 21:14:14,852 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 21:14:19,911 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 21:14:19,916 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:14:19] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 21:14:34,087 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 21:14:34,093 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:14:34] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 21:14:36,223 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:14:36] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 21:14:40,282 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.omdbapi.com:80
+2025-01-05 21:14:40,381 - urllib3.connectionpool - DEBUG - http://www.omdbapi.com:80 "GET /?apikey=6769d9a1&t=The%20Godfather%20Part%20II HTTP/11" 200 None
+2025-01-05 21:14:40,387 - root - INFO - Updated movie ID 5 for user ID 1.
+2025-01-05 21:14:40,389 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:14:40] "[32mPOST /users/1/update/5 HTTP/1.1[0m" 302 -
+2025-01-05 21:14:40,399 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 21:14:40,400 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:14:40] "GET /users/1?message=Movie+'The+Godfather+Part+II'+updated+successfully!&status=success HTTP/1.1" 200 -
+2025-01-05 21:14:46,015 - app - WARNING - Page not found: 404.
+2025-01-05 21:14:46,018 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:14:46] "[33mPOST /users/1/delete/1 HTTP/1.1[0m" 404 -
+2025-01-05 21:14:48,322 - app - INFO - Rendered the home page successfully.
+2025-01-05 21:14:48,326 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:14:48] "GET / HTTP/1.1" 200 -
+2025-01-05 21:14:48,358 - app - WARNING - Page not found: 404.
+2025-01-05 21:14:48,358 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:14:48] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 21:14:55,176 - root - INFO - Rendered the users list page.
+2025-01-05 21:14:55,182 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:14:55] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 21:14:56,596 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 21:14:56,598 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 21:14:56] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:13:46,106 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:13:46,110 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:13:46] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:13:55,487 - app - WARNING - Page not found: 404.
+2025-01-05 22:13:55,489 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:13:55] "[33mPOST /users/1/delete/1 HTTP/1.1[0m" 404 -
+2025-01-05 22:14:11,101 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 22:14:11,179 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 22:14:11,525 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 22:14:11,533 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 22:14:24,740 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 22:14:24,801 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 22:14:25,115 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 22:14:25,122 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 22:14:27,956 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:14:27,963 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:14:27] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:14:30,223 - root - INFO - Deleted movie ID 1 for user ID 1.
+2025-01-05 22:14:30,223 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:14:30] "POST /users/1/delete/1 HTTP/1.1" 200 -
+2025-01-05 22:14:35,059 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:14:35,060 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:14:35] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:16:38,134 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 22:16:38,207 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 22:16:38,559 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 22:16:38,566 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 22:16:40,424 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:16:40,431 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:16:40] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:16:42,151 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:16:42,152 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:16:42] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:17:09,711 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:17:09,712 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:17:09] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:17:11,628 - root - INFO - Deleted movie ID 2 for user ID 1.
+2025-01-05 22:17:11,629 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:17:11] "[32mPOST /users/1/delete/2 HTTP/1.1[0m" 302 -
+2025-01-05 22:17:11,636 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:17:11,636 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:17:11] "GET /users/1?message=Movie+with+ID+2+deleted+successfully!&status=success HTTP/1.1" 200 -
+2025-01-05 22:17:19,150 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:17:19] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:19:18,189 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:19:18] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:19:44,271 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 22:19:44,329 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 22:19:44,671 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 22:19:44,676 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 22:22:27,001 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 22:22:27,059 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 22:22:27,403 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 22:22:27,408 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 22:23:30,277 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app.py', reloading
+2025-01-05 22:23:30,324 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 22:23:30,663 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 22:23:30,670 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 22:24:44,036 - app - ERROR - An unhandled exception occurred: 'user' is undefined
+Traceback (most recent call last):
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py", line 61, in add_movie
+    return render_template('add_movie.html', user_id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/narayanghimire/Desktop/moviweb_app/templates/add_movie.html", line 18, in top-level template code
+    <a href="/users/{{ user.id }}" class="btn btn-primary btn-sm">Back</a>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'user' is undefined
+2025-01-05 22:24:44,045 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:24:44] "[35m[1mGET /users/1/add_movie HTTP/1.1[0m" 500 -
+2025-01-05 22:25:07,118 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:25:07] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:26:18,330 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:26:18,337 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:26:18] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:27:54,291 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:27:54,292 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:27:54] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:27:56,751 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:27:56] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:27:58,700 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:27:58,700 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:27:58] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:28:01,047 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:28:01] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:28:48,513 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:28:48] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:29:21,379 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:29:21] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:29:47,544 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:29:47] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:30:10,821 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:30:10] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:30:16,431 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:30:16] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:30:17,611 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:30:17,612 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:30:17] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:30:22,207 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:30:22] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 22:30:26,639 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:30:26,640 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:30:26] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:30:30,905 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:30:30] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 22:30:57,834 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:30:57] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 22:31:07,094 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:31:07] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 22:31:08,536 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:31:08] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 22:31:17,072 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:31:17] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 22:31:19,139 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:31:19] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 22:32:10,165 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:32:10] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 22:32:11,492 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:32:11,493 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:32:11] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:32:14,262 - app - ERROR - An unhandled exception occurred: 'user' is undefined
+Traceback (most recent call last):
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py", line 61, in add_movie
+    return render_template('add_movie.html', user_id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/narayanghimire/Desktop/moviweb_app/templates/add_movie.html", line 18, in top-level template code
+    <a href="/users/{{ user.id }}" class="btn btn-primary btn-sm">Back</a>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'user' is undefined
+2025-01-05 22:32:14,269 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:32:14] "[35m[1mGET /users/1/add_movie HTTP/1.1[0m" 500 -
+2025-01-05 22:32:26,460 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:32:26] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:32:43,448 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:32:43] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:32:50,759 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:32:50] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:32:52,808 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:32:52,809 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:32:52] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:32:58,112 - app - INFO - Rendered the home page successfully.
+2025-01-05 22:32:58,117 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:32:58] "GET / HTTP/1.1" 200 -
+2025-01-05 22:32:58,153 - app - WARNING - Page not found: 404.
+2025-01-05 22:32:58,154 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:32:58] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 22:33:01,159 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:33:01] "GET /users/add HTTP/1.1" 200 -
+2025-01-05 22:33:21,073 - root - INFO - Rendered the users list page.
+2025-01-05 22:33:21,079 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:33:21] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 22:33:32,042 - app - INFO - Rendered the home page successfully.
+2025-01-05 22:33:32,044 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:33:32] "GET / HTTP/1.1" 200 -
+2025-01-05 22:33:32,088 - app - WARNING - Page not found: 404.
+2025-01-05 22:33:32,088 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:33:32] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 22:33:58,793 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:33:58] "GET /users/add HTTP/1.1" 200 -
+2025-01-05 22:34:08,145 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:34:08] "GET /users/add HTTP/1.1" 200 -
+2025-01-05 22:34:09,454 - root - INFO - Rendered the users list page.
+2025-01-05 22:34:09,455 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:34:09] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 22:34:13,116 - app - INFO - Rendered the home page successfully.
+2025-01-05 22:34:13,116 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:34:13] "GET / HTTP/1.1" 200 -
+2025-01-05 22:34:13,140 - app - WARNING - Page not found: 404.
+2025-01-05 22:34:13,140 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:34:13] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 22:34:22,964 - root - INFO - Rendered the users list page.
+2025-01-05 22:34:22,970 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:34:22] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 22:34:30,052 - app - INFO - Rendered the home page successfully.
+2025-01-05 22:34:30,053 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:34:30] "GET / HTTP/1.1" 200 -
+2025-01-05 22:34:30,097 - app - WARNING - Page not found: 404.
+2025-01-05 22:34:30,098 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:34:30] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 22:35:02,949 - root - INFO - Rendered movies for user ID 6.
+2025-01-05 22:35:02,950 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:35:02] "GET /users/6 HTTP/1.1" 200 -
+2025-01-05 22:35:04,887 - app - INFO - Rendered the home page successfully.
+2025-01-05 22:35:04,889 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:35:04] "GET / HTTP/1.1" 200 -
+2025-01-05 22:35:04,913 - app - WARNING - Page not found: 404.
+2025-01-05 22:35:04,913 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:35:04] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 22:35:08,169 - root - INFO - Rendered the users list page.
+2025-01-05 22:35:08,169 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:35:08] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 22:35:09,972 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:35:09,973 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:35:09] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:35:28,552 - root - INFO - Rendered movies for user ID 3453.
+2025-01-05 22:35:28,553 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:35:28] "GET /users/3453 HTTP/1.1" 200 -
+2025-01-05 22:35:37,000 - root - INFO - Rendered movies for user ID 54623.
+2025-01-05 22:35:37,001 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:35:37] "GET /users/54623 HTTP/1.1" 200 -
+2025-01-05 22:40:21,092 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/services/movie_service.py', reloading
+2025-01-05 22:40:21,166 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 22:40:21,560 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 22:40:21,576 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 22:41:00,141 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/data_manager/sqlite_data_manager.py', reloading
+2025-01-05 22:41:00,215 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 22:41:00,567 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 22:41:00,572 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 22:42:37,933 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/data_manager/sqlite_data_manager.py', reloading
+2025-01-05 22:42:37,990 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 22:42:38,374 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 22:42:38,383 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 22:48:34,092 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/data_manager/data_manager_interface.py', reloading
+2025-01-05 22:48:34,184 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 22:48:34,579 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 22:48:34,588 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 22:48:36,875 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:48:36,881 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:48:36] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:48:37,937 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:48:37,937 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:48:37] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:48:42,279 - root - ERROR - User with ID 2345345 not found.
+2025-01-05 22:48:42,281 - app - ERROR - An unhandled exception occurred: user not found: 2345345
+Traceback (most recent call last):
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py", line 25, in user_movies
+    movies = movie_service.get_user_movies(user_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app/services/movie_service.py", line 78, in get_user_movies
+    raise NotFoundErr(f"user not found: {user_id}")
+xml.dom.NotFoundErr: user not found: 2345345
+2025-01-05 22:48:42,287 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:48:42] "[35m[1mGET /users/2345345 HTTP/1.1[0m" 500 -
+2025-01-05 22:49:42,563 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/services/movie_service.py', reloading
+2025-01-05 22:49:42,628 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 22:49:42,957 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 22:49:42,963 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 22:49:43,359 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:49:43] "GET /users/1/add_movie HTTP/1.1" 200 -
+2025-01-05 22:49:50,166 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:49:50] "GET /users/4564/add_movie HTTP/1.1" 200 -
+2025-01-05 22:49:52,612 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:49:52] "GET /users/4564/add_movie HTTP/1.1" 200 -
+2025-01-05 22:49:55,677 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:49:55] "GET /users/4564/add_movie HTTP/1.1" 200 -
+2025-01-05 22:50:11,354 - root - ERROR - User with ID 4564 not found.
+2025-01-05 22:50:11,355 - app - ERROR - An unhandled exception occurred: user not found: 4564
+Traceback (most recent call last):
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py", line 55, in add_movie
+    movie_service.add_movie(name, user_id)
+  File "/Users/narayanghimire/Desktop/moviweb_app/app/services/movie_service.py", line 46, in add_movie
+    raise NotFoundErr(f"user not found: {user_id}")
+xml.dom.NotFoundErr: user not found: 4564
+2025-01-05 22:50:11,364 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:50:11] "[35m[1mPOST /users/4564/add_movie HTTP/1.1[0m" 500 -
+2025-01-05 22:50:12,567 - app - INFO - Rendered the home page successfully.
+2025-01-05 22:50:12,576 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:50:12] "GET / HTTP/1.1" 200 -
+2025-01-05 22:50:12,611 - app - WARNING - Page not found: 404.
+2025-01-05 22:50:12,613 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:50:12] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 22:51:12,943 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:51:12] "GET /users/6/add_movie HTTP/1.1" 200 -
+2025-01-05 22:51:18,430 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:51:18] "GET /users/6/add_movie HTTP/1.1" 200 -
+2025-01-05 22:51:28,504 - app - WARNING - Page not found: 404.
+2025-01-05 22:51:28,505 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:51:28] "[33mGET /users/456435t/add_movie HTTP/1.1[0m" 404 -
+2025-01-05 22:51:35,218 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:51:35] "GET /users/456435/add_movie HTTP/1.1" 200 -
+2025-01-05 22:58:48,432 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 22:58:48,502 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 22:58:48,860 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 22:58:48,866 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 22:58:50,929 - root - ERROR - User with ID 456435 not found.
+2025-01-05 22:58:50,929 - app - ERROR - An unhandled exception occurred: User not found with ID:456435
+Traceback (most recent call last):
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py", line 57, in add_movie
+    raise NotFoundErr(f"User not found with ID:{user_id}")
+xml.dom.NotFoundErr: User not found with ID:456435
+2025-01-05 22:58:50,934 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:58:50] "[35m[1mGET /users/456435/add_movie HTTP/1.1[0m" 500 -
+2025-01-05 22:58:52,943 - app - INFO - Rendered the home page successfully.
+2025-01-05 22:58:52,948 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:58:52] "GET / HTTP/1.1" 200 -
+2025-01-05 22:58:52,993 - app - WARNING - Page not found: 404.
+2025-01-05 22:58:52,994 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:58:52] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 22:59:11,595 - root - INFO - Rendered the users list page.
+2025-01-05 22:59:11,599 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:59:11] "GET /users/ HTTP/1.1" 200 -
+2025-01-05 22:59:15,366 - root - INFO - Rendered movies for user ID 1.
+2025-01-05 22:59:15,372 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:59:15] "GET /users/1 HTTP/1.1" 200 -
+2025-01-05 22:59:19,486 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:59:19] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 22:59:41,911 - root - ERROR - Movie with ID 5 not found for user ID 2.
+2025-01-05 22:59:41,912 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 22:59:41] "[33mGET /users/2/update/5 HTTP/1.1[0m" 404 -
+2025-01-05 23:00:47,553 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 23:00:47,626 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 23:00:47,979 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 23:00:47,987 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 23:00:50,728 - root - ERROR - Movie with ID 5 not found for user ID 2.
+2025-01-05 23:00:50,729 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 23:00:50] "[33mGET /users/2/update/5 HTTP/1.1[0m" 404 -
+2025-01-05 23:01:11,321 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 23:01:11,390 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 23:01:11,707 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 23:01:11,712 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 23:01:15,277 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 23:01:15] "GET /users/1/update/5 HTTP/1.1" 200 -
+2025-01-05 23:01:21,667 - root - ERROR - Movie with ID 5 not found for user ID 7.
+2025-01-05 23:01:21,668 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 23:01:21] "[33mGET /users/7/update/5 HTTP/1.1[0m" 404 -
+2025-01-05 23:02:08,475 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 23:02:08,544 - werkzeug - INFO -  * Restarting with stat
+2025-01-05 23:02:08,876 - werkzeug - WARNING -  * Debugger is active!
+2025-01-05 23:02:08,882 - werkzeug - INFO -  * Debugger PIN: 909-624-798
+2025-01-05 23:02:08,959 - app - ERROR - An unhandled exception occurred: Error updating movie for user ID 7, movie ID 5
+Traceback (most recent call last):
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/.venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py", line 79, in update_movie
+    raise NotFoundErr(f"Error updating movie for user ID {user_id}, movie ID {movie_id}")
+xml.dom.NotFoundErr: Error updating movie for user ID 7, movie ID 5
+2025-01-05 23:02:08,962 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 23:02:08] "[35m[1mGET /users/7/update/5 HTTP/1.1[0m" 500 -
+2025-01-05 23:02:10,295 - app - INFO - Rendered the home page successfully.
+2025-01-05 23:02:10,302 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 23:02:10] "GET / HTTP/1.1" 200 -
+2025-01-05 23:02:10,336 - app - WARNING - Page not found: 404.
+2025-01-05 23:02:10,339 - werkzeug - INFO - 127.0.0.1 - - [05/Jan/2025 23:02:10] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2025-01-05 23:05:01,126 - werkzeug - INFO -  * Detected change in '/Users/narayanghimire/Desktop/moviweb_app/app/controller/users_movie_controller.py', reloading
+2025-01-05 23:05:01,192 - werkzeug - INFO -  * Restarting with stat
