@@ -96,8 +96,8 @@ def update_movie(user_id, movie_id):
 
     if request.method == 'POST':
         try:
-            name, year = MovieValidator.validate_update_movie()
-            movie_service.update_movie(movie_id, name, year)
+            name, year, rating = MovieValidator.validate_update_movie()
+            movie_service.update_movie(movie_id, name, year, rating)
             logging.info(f"Updated movie ID {movie_id} for user ID {user_id}.")
 
 
@@ -105,8 +105,12 @@ def update_movie(user_id, movie_id):
                                     user_id=user_id,
                                     message=f"Movie '{name}' updated successfully!",
                                     status='success'))
-        except BadRequest as e:
-            raise NotFoundErr(f"Error updating movie for user ID {user_id}, movie ID {movie_id}: {str(e)}")
+        except Exception as e:
+            logging.error(f"Error updating movie for user ID {user_id}, movie ID {movie_id}: {str(e)}")
+            return redirect(url_for('users_movie_controller.user_movies',
+                                user_id=user_id,
+                                message=f"Error updating movie with movie Id {movie_id}.",
+                                status='error'))
 
     return render_template('update_movie.html', user_id=user_id, movie_id=movie_id, movie=movie)
 

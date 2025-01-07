@@ -63,21 +63,27 @@ class MovieService:
         self.data_manager.add_movie(name, year, rating, user_id)
 
     def update_movie(self, movie_id, new_name=None, new_year=None, new_rating=None):
-        """Update movie details in the database, fetching updated data from OMDb API."""
+        """
+        Update movie details in the database, fetching updated data from OMDb API if necessary.
+        If new_year or new_rating is None, it will take the values from the OMDb API or fallback to the existing database values.
+        """
+        existing_movie = self.data_manager.get_movie(movie_id)
+        if not existing_movie:
+            raise NotFoundErr(f"Movie with ID {movie_id} does not exist in the database.")
+
+        movie_data = None
         if new_name:
-            # Fetch movie details from OMDb API based on the new name
             movie_data = self.omdb_api_service.fetch_movie_data(new_name)
             if movie_data:
-                # Update movie with fetched data from OMDb API
-                new_name = movie_data['title']
-                new_year = movie_data.get('year', new_year)
-                new_rating = movie_data.get('rating', new_rating)
+                new_name = movie_data.get('title', new_name)
             else:
-                logging.error(f"Movie '{new_name}' not found in OMDb database.")
-                return
+                raise NotFoundErr(f"Movie '{new_name}' not found in OMDb database.")
 
-        # Update movie details in the database
+        new_year = new_year or (movie_data.get('year') if movie_data else existing_movie['year'])
+        new_rating = new_rating or (movie_data.get('rating') if movie_data else existing_movie['rating'])
+
         self.data_manager.update_movie(movie_id, new_name, new_year, new_rating)
+        logging.info(f"Movie with ID {movie_id} successfully updated.")
 
     def delete_movie(self, movie_id):
         """Delete a movie from the database."""
